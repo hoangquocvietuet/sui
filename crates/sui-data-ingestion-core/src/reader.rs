@@ -60,7 +60,7 @@ impl Default for ReaderOptions {
     fn default() -> Self {
         Self {
             tick_internal_ms: 100,
-            timeout_secs: 5,
+            timeout_secs: 180,
             batch_size: 10,
             data_limit: 0,
             upper_limit: None,
